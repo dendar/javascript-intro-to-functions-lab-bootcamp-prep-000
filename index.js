@@ -14,11 +14,17 @@ function sayHiToGrandma(string){
 
   if (string===string.toLowerCase()) {
     return "i can't hear you!"
-  }else if(string===string.toUpperCase()){
-    return "YES INDEED!"
-  }else if (string ==="i love you, Grandma.") {
-    return "i love you too."
-
   }
+  // else if(string===string.toUpperCase()){
+  //   return "YES INDEED!"
+  // }else if (string ==="i love you, Grandma.") {
+  //   return "i love you too."
+  // 
+  // }
 
+} 
+function sayHiToGrandma(string){
+
+if(string===string.toUpperCase()){
+  return "YES INDEED!"
 }
